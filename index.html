@@ -45,7 +45,7 @@
         var content = $("#content").val();
         var blank = ['']
         if(content != blank ){
-            $.post(url,{"content": content},function(){Materialize.toast('Message Sent!', 4000)});
+            $.post(url,{"content": "-" + content + "-"},function(){Materialize.toast('Message Sent!', 4000)});
             noSpam()
         }
         });

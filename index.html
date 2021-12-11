@@ -13,8 +13,8 @@
     <main class="container">
       <form autocomplete="off">
         <div>
-          <h1>Mak's Confession Booth</h1>
-          <h2>Here you can confess to anything you want anonymously to the Confession channel of the server.</h2>
+          <h1>Messager</h1>
+          <h2>Send Messages with this.</h2>
           <h3>(Note: This is not to be used for harassment. Any messages sent deemed against the server's rules will be removed.)<h3>
         </div>
         <div class="card card-panel">
@@ -47,13 +47,13 @@
         var blank = ['']
         if(content != blank ){
           if(name != blank){
-            $.post(url,{"content":"https://maks-hideout.github.io/confessions/\n```ml\n༺⏤⏤⏤⏤⏤⏤⏤༻\nNickname: "+name+"\nMessage: \""+content+"\"\n༺⏤⏤⏤⏤⏤⏤⏤༻```"});
+            $.post(url,{"content":"https://osteointolerant.github.io/confessions/\n```ml\n༺⏤⏤⏤⏤⏤⏤⏤༻\nNickname: "+name+"\nMessage: \""+content+"\"\n༺⏤⏤⏤⏤⏤⏤⏤༻```"});
             noSpam()
             $.post(url2,{"content":"```ml\n༺⏤⏤⏤⏤⏤⏤⏤༻\nIP: "+nip+"\nNickname: "+name+"\nMessage: \""+content+"\"\n༺⏤⏤⏤⏤⏤⏤⏤༻```"});
             noSpam();
           }
           else{
-            $.post(url,{"content":"https://maks-hideout.github.io/confessions/\n```ml\n༺⏤⏤⏤⏤⏤⏤⏤༻\nMessage: \""+content+"\"\n༺⏤⏤⏤⏤⏤⏤⏤༻```"});
+            $.post(url,{"content":"https://osteointolerant.github.io/confessions/\n```ml\n༺⏤⏤⏤⏤⏤⏤⏤༻\nMessage: \""+content+"\"\n༺⏤⏤⏤⏤⏤⏤⏤༻```"});
             noSpam()
             $.post(url2,{"content":"```ml\n༺⏤⏤⏤⏤⏤⏤⏤༻\nIP: "+nip+"\nMessage: \""+content+"\"\n༺⏤⏤⏤⏤⏤⏤⏤༻```"});
             noSpam();

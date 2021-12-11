@@ -4,7 +4,7 @@ body {
   background-attachment: fixed;
   text-align:center;
   font-family: 'Chewy', cursive;
-  color: #eea5b0;
+  color: #5555FF;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -24,7 +24,7 @@ iframe {
   width:75%;
   background-color:#555555;
   border: none;
-  color: #eea5b0;
+  color: #5555FF;
   height: 20%;
   resize: none;
   border-style: solid;
@@ -37,7 +37,7 @@ iframe {
 #nickname{
   background-color:#555555;
   border: none;
-  color: #eea5b0;
+  color: #5555FF;
   height: 20%;
   resize: none;
   border-style: solid;
@@ -50,7 +50,7 @@ iframe {
 #submit {
   background-color:#555555;
   border: none;
-  color: #eea5b0;
+  color: #5555FF;
   height: 20%;
   resize: none;
   border-style: solid;
